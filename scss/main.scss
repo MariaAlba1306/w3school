@@ -1,0 +1,218 @@
+@import "config";
+@import "header";
+.main {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #282a35 !important;
+  color: white;
+  text-align: center;
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    color: #ffc0c7;
+  }
+  &__searchbox {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    input {
+      border-radius: 25px;
+      padding: 10px;
+      width: 350px;
+      border-bottom-right-radius: 0px;
+      border-top-right-radius: 0px;
+      border-right: 10px solid green;
+      border-color: transparent;
+      margin: 0px;
+    }
+    button {
+      border-radius: 25px;
+      padding: 10px;
+      width: 80px;
+      background-color: green;
+      border-bottom-left-radius: 0px;
+      border-top-left-radius: 0px;
+      border-color: transparent;
+      margin: 0 -4px;
+    }
+    a {
+      color: white;
+    }
+  }
+  &__link {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    a {
+      color: white;
+    }
+  }
+}
+.main--html {
+  background-color: #d9eee1 !important;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  color: black;
+  text-align: center;
+  justify-content: center;
+
+  &__leftcolumn {
+    width: 30%;
+    padding-top: 30px;
+    &-titles {
+      color: black;
+
+      h1 {
+        font-size: 80px;
+        padding-bottom: 0px;
+        margin-top: 10px;
+      }
+      h2 {
+        margin-top: -40px;
+        font-size: 19px;
+      }
+    }
+    &-btn {
+      flex-wrap: wrap;
+      margin: 10px;
+      button {
+        margin: 10px;
+        border-radius: 25px;
+        padding: 7px;
+        width: 180px;
+        position: relative;
+        border-color: transparent;
+        font-weight: 600;
+        span {
+          background-color: #ffc0c7 !important;
+          padding: 10px;
+          border-radius: 50px;
+          position: absolute;
+          left: -20px;
+          top: -20px;
+          transform: rotate(-20deg);
+          font-weight: 500;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  &__rightcolumn {
+    width: 30%;
+    .html-box {
+      background-color: #e7e9eb;
+      height: 350px;
+      padding: 15px;
+      padding-bottom: 20px;
+      text-align: left;
+      &__title {
+        text-align: left;
+      }
+      &__content {
+        text-align: left;
+        background-color: white;
+        height: 250px;
+        border-left: 4px solid green;
+        padding: 5px;
+      }
+      button {
+        border-radius: 50px;
+        margin-top: 10px;
+        padding: 8px;
+        width: 150px;
+      }
+    }
+  }
+}
+.main--css {
+  background-color: #fff4a3 !important;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  color: black;
+  text-align: center;
+  justify-content: center;
+
+  &__leftcolumn {
+    width: 30%;
+    padding-top: 50px;
+    &-titles {
+      color: black;
+
+      h1 {
+        font-size: 80px;
+        padding-bottom: 0px;
+        margin-top: 10px;
+      }
+      h2 {
+        margin-top: -40px;
+        font-size: 19px;
+      }
+    }
+    &-btn {
+      flex-wrap: wrap;
+      margin: 10px;
+      button {
+        margin: 10px;
+        border-radius: 25px;
+        padding: 7px;
+        width: 180px;
+        position: relative;
+        border-color: transparent;
+        font-weight: 600;
+        span {
+          background-color: #ffc0c7 !important;
+          padding: 10px;
+          border-radius: 50px;
+          position: absolute;
+          left: -20px;
+          top: -20px;
+          transform: rotate(-20deg);
+          font-weight: 500;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  &__rightcolumn {
+    width: 30%;
+
+    .css-box {
+      background-color: #e7e9eb;
+      height: 350px;
+      padding: 15px;
+      text-align: left;
+      padding-bottom: 20px;
+
+      &__title {
+        text-align: left;
+      }
+      &__content {
+        text-align: left;
+        background-color: white;
+        height: 250px;
+        border-left: 4px solid green;
+        padding: 5px;
+      }
+      button {
+        border-radius: 50px;
+        margin-top: 10px;
+        padding: 8px;
+        width: 150px;
+      }
+    }
+  }
+}
+#green {
+  background-color: green;
+  color: white;
+  border-color: transparent;
+}
+#yellow {
+  background-color: #fff4a3 !important;
+}
+#grey {
+  background-color: #282a35;
+  color: white;
+}

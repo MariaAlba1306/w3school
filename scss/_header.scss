@@ -1,0 +1,58 @@
+.block {
+  display: flex;
+  height: 60px;
+
+  div {
+    margin-left: 30px;
+    padding-top: 15px;
+    content: "\e809";
+  }
+  .logo {
+    padding-top: 5px;
+
+    img {
+      width: 40px;
+    }
+  }
+  .space {
+    width: 55%;
+    align-items: right;
+
+    content: "";
+  }
+  .opacity,
+  .world,
+  .search {
+    margin-left: 15px;
+    margin-top: 5px;
+    img {
+      width: 15px;
+    }
+  }
+  .login {
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    height: 10px;
+    border-radius: 25px;
+    padding: 17px;
+    width: 80px;
+    background-color: green;
+    p {
+      margin-top: -5px;
+    }
+  }
+  .website {
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+    height: 10px;
+    border-radius: 25px;
+    padding: 17px;
+    width: 80px;
+    background-color: #ffc0c7;
+    p {
+      margin-top: -5px;
+    }
+  }
+}
